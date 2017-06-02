@@ -1,0 +1,18 @@
+name: pyrhf-environment
+
+dependencies:
+  - python=2.7
+  - bs4            # requirement for fetchopenfmri
+  - lxml           # requirement for fetchopenfmri
+  - fetchopenfmri  # download fmri dataset from openfmri.org
+  - nibabel=2.1.0
+  - nipype=0.13.1
+  - sklearn
+  - nilearn=0.3.0
+  - joblib         # parallel computation
+
+  - pip:
+    - git+https://github.com/pyhrf/pyhrf.git
+
+
+
