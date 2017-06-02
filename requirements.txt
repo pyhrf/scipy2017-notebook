@@ -7,6 +7,7 @@ lxml           # requirement for fetchopenfmri
 fetchopenfmri  # download fmri dataset from openfmri.org
 
 # Pre-processing
+nibabel >= 1.1
 nipype >=0.13
 
 # visualization
