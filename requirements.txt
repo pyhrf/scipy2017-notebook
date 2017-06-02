@@ -1,0 +1,18 @@
+# Notebook
+jupyter
+
+# Packages to download dataset
+bs4            # requirement for fetchopenfmri
+lxml           # requirement for fetchopenfmri
+fetchopenfmri  # download fmri dataset from openfmri.org
+
+# Pre-processing
+nipype >=0.13
+
+# visualization
+sklearn
+nilearn
+
+# PyHRF
+pyhrf
+joblib          # parallel computation

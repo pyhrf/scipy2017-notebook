@@ -1,0 +1,15 @@
+# fMRI dataset
+data/*
+
+# Preprocessing and pyhrf output
+output/*
+
+# PyCharm
+.idea
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.pklz
+
+# Matlab files
+*.m
