@@ -11,6 +11,7 @@ nibabel >= 1.1
 nipype >=0.13
 
 # visualization
+pandas
 sklearn
 nilearn
 
