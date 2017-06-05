@@ -20,8 +20,8 @@ You can install them using the tool ``pip``.
 Run
 ---
 
-Please launch jupyter and then select the notebook ``pyhrf.ipynb``.
+Please launch jupyter and then select the notebook ``index.ipynb``.
 
 .. code-block:: bash
 
-   jupyter notebook
+   jupyter-notebook
