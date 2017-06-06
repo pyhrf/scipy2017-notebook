@@ -9,6 +9,8 @@ manuscript presented at the *15th Python in Science Conference (Scipy 2017)*.
 Dependencies
 ------------
 
+This notebook **only works** with ``python 2.x.x0`` because of the package ``pyhrf``.
+
 Please check the ``requirements.txt`` file to know the necessary dependencies.
 You can install them using the tool ``pip``.
 
