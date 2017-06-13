@@ -18,6 +18,13 @@ You can install them using the tool ``pip``.
 
    pip install -r requirements.txt
 
+Finally, you need to install SPM for image preprocessing. You can install it
+using the ``install_spm12.sh`` script.
+
+.. code-block:: bash
+
+  ./install_spm12.sh
+
 
 Run
 ---
