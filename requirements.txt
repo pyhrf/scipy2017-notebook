@@ -7,8 +7,8 @@ lxml           # requirement for fetchopenfmri
 fetchopenfmri  # download fmri dataset from openfmri.org
 
 # Pre-processing
-nibabel >= 1.1
-nipype >=0.13
+nibabel>=1.1, <2.1.0
+nipype>=0.13
 
 # visualization
 pandas
@@ -16,5 +16,11 @@ sklearn
 nilearn
 
 # PyHRF
-pyhrf
+sphinx
 joblib          # parallel computation
+scipy>=0.9
+sympy>=0.7
+nipy>=0.3.0
+matplotlib>=1.1
+numpy>=1.6, <1.12
+-e git+https://github.com/pyhrf/pyhrf.git@master#egg=pyhrf
