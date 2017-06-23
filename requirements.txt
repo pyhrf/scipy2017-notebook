@@ -23,4 +23,6 @@ sympy>=0.7
 nipy>=0.3.0
 matplotlib>=1.1
 numpy>=1.6, <1.12
+sphinx_bootstrap_theme
+colorama
 -e git+https://github.com/pyhrf/pyhrf.git@master#egg=pyhrf
